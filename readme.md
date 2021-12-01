@@ -11,7 +11,3 @@ The goal was to create a model allowing through deeplearning to recognize the we
 ## How to use
 1. Create the trained model to recognize the mask on a picture `python3 createmaskedmodel.py`
 2. Execute the script to access the webcam and evaluate the webcam flow `python3 maskedcam.py`
-
-Il faut d'abord exécuter le createmaskedmodel.py pour créer le modèle puis l'utiliser avec maskedcam.py
-maskedcam.py utilise une caméra ip et précise le chemin absolu du fichier haarcascade. Il faut donc modifier ces 2 éléments en fonction
-de votre système d'exploitation et de votre matériel pour faire fonctionner le script.
